@@ -1,0 +1,33 @@
+/* gif with mouse hover on top --  last colors --  */
+/*-webkit-min-device-pixel-ratio: 1.5  min-device-pixel-ratio: 1.5*/
+body {
+    font-family: helvetica, arial, sans-serif;
+    margin: 0;
+}
+
+h1{
+    margin: 0;
+}
+h2 {
+    margin:0px;
+    padding: 30px;
+    font-size: 5vw;
+}
+
+p {
+    margin:0px;
+    padding: 20px;
+}
+
+.header {
+    background-attachment: fixed;
+    background-image: url("./logo.png");
+    background-position: top;
+    background-size: 60%;
+    background-repeat: no-repeat;
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 27%;
+    text-align: center;
+
+}
