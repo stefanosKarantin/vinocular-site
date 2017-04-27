@@ -3,35 +3,124 @@
 }
 
 .navbar {
-    margin: 0;
+    margin: auto;
     padding: 0;
-    width: 15%;
+    width: 13%;
     height: 100%;
     position: fixed;
-    background-color: #444;
+    background: black; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, #2b362a , #000); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #2b362a, #000); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #2b362a, #000); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #2b362a , #000); /* Standard syntax */
+    text-align: center;
+}
+
+.navlogo {
+    background-image: url("./logo2.png");
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center;
+    height: 80px;
+    width: 100%;
+    margin: auto;
+    padding-top: 50px;
 
 }
 
 .navbar li {
-    font-size: 2vw;
-    width: 100%;
-}
-
-.navbar li a {
-    margin: 10% 0;
-    position: relative;
+    font-size: 1.4vw;
+    width: 70%;
+    margin: -130px auto;
+    padding: 120px 0;
     display: block;
-    color: white;
-    text-align: center;
-    padding: 30% 10%;
+    cursor: pointer;
+    color: #fff;
     text-decoration: none;
 }
+#about {
+    padding-top: 50px;
+    margin-top: -30px;
+}
 
-.navbar li a:hover {
+.line {
+    left: 25.8%;
+    width: 1px;
+   height: 150px;
+   background-color: #ccc;
+   position: relative;
+   overflow: inherit;
+   z-index: -1;
+}
+
+.circle {
+    float: left;
+    width: 15.84%;
+    height: auto;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    line-height: 50%;
+    background-color: #fff;
+    padding-bottom: 15.84%;
+    margin-left: 8%;
+    -webkit-transition: background-color 800ms;
+}
+
+.text{
+    -webkit-transition: color 800ms;
+}
+
+.link:hover {
     color: #006f59;
 }
 
+.link:hover .circle {
+    transition-duration: 800ms;
+    background-color: #006f59;
+}
 .active {
-    background-color: #aaa;
+
     color: #006f59;
+}
+
+.active .circle{
+    transition-duration: 800ms;
+    background-color: #006f59;
+}
+
+@media screen and (max-width: 768px){
+    .navlogo {
+        background-size: 80%
+    }
+
+    .text {
+        display: none;
+        position: absolute;
+        float: left;
+    }
+
+    .circle {
+        text-align: center;
+        width: 35%;
+        padding-bottom: 35%;
+        margin: 0 auto;
+        float: none;
+    }
+
+    .line {
+        left: 47%;
+    }
+}
+
+@media screen and (max-height: 420px){
+    .navbar li {
+        margin: -30px auto;
+        padding: 20px 0;
+    }
+
+    .line {
+        height: 120px;
+    }
+
 }

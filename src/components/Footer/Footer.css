@@ -1,0 +1,13 @@
+.footer {
+    background-color: #006f59;
+}
+
+.footer p {
+    text-align: right;
+}
+
+@media screen and (max-width: 768px){
+    .footer p {
+        text-align: center;
+    }
+}

@@ -1,0 +1,27 @@
+.about{
+    background-color: #006f59;
+    background: url("./wine.jpg");
+    background-repeat:   no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 0;
+    -webkit-transition: opacity 0.5s ease-out;
+    -moz-transition: opacity 0.5s ease-out;
+    -o-transition: opacity 0.5s ease-out;
+    transition: opacity 0.5s ease-out;
+}
+
+.myText {
+    background-color: #fff;
+    color: #000;
+    opacity: 0;
+    transition-duration: 800ms;
+}
+
+.about:hover .myText, .myText.hovered{
+    background:
+    rgba(0, 0, 0, 0.3),
+    url("./wine.jpg");
+    opacity: 0.8;
+    transition-duration: 800ms;
+}
