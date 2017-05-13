@@ -5,6 +5,7 @@ import Scroll from 'react-scroll';
 var Element    = Scroll.Element;
 import About from './sections/About/About';
 import Problem from './sections/Problem/Problem';
+import Solution from './sections/Solution/Solution';
 import Contact from './sections/Contact/Contact';
 import Precision from './sections/Precision/Precision';
 
@@ -20,6 +21,7 @@ class Home extends React.Component {
                 <div>
                     <Element name="about"><About /></Element>
                     <Element name="problem"><Problem /></Element>
+                    <Element name="solution"><Solution /></Element>
                     <Element name="precision"><Precision /></Element>
                     <Element name="contact"><Contact /></Element>
                     <Footer/>

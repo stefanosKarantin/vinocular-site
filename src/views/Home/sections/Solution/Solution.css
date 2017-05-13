@@ -1,0 +1,41 @@
+.solution {
+    background-color: #d9ffb3;
+    padding: 0;
+    display: flex;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.textLeft {
+    width:50%;
+    float: left;
+}
+
+.textLeft ul{
+    list-style-type: circle;
+    font-size:1.6em;
+}
+
+.solImg {
+    background-image: url('./logo.ico');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    width: 50%;
+    height: 100%;
+    float: right;
+    margin: auto;
+}
+
+@media screen and (max-width: 768px){
+    .textLeft ul{
+        font-size:1.2em;
+    }
+}
+
+@media screen and (max-width: 420px){
+    .textLeft ul{
+        font-size:1em;
+    }
+
+}

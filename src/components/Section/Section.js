@@ -33,10 +33,7 @@ class Section extends React.Component {
         return(
             <div className={this.props.sectionCLass} id={this.props.id}>
                 <div className={this.state.opacClass}>
-                    <h2>{this.props.title}</h2>
-                    <p>
-                        {this.props.text}
-                    </p>
+                    {this.props.children}
                 </div>
             </div>
         );

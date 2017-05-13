@@ -56,6 +56,16 @@ class Navbar extends React.Component {
                 <div className="line">
                 </div>
                 <li>
+                    <ScrollLink activeClass="active" to="solution" spy={true} smooth={true} duration={500} >
+                        <div className="link">
+                            <div className="circle"></div>
+                            <div className="text">Solution</div>
+                        </div>
+                    </ScrollLink>
+                </li>
+                <div className="line">
+                </div>
+                <li>
                     <ScrollLink activeClass="active" to="contact" spy={true} offset={-7} smooth={true} duration={500} >
                         <div className="link">
                             <div className="circle"></div>

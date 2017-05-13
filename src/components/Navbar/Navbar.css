@@ -46,7 +46,7 @@
 .line {
     left: 25.8%;
     width: 1px;
-   height: 150px;
+   height: 100px;
    background-color: #ccc;
    position: relative;
    overflow: inherit;

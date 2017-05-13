@@ -1,13 +1,13 @@
 /* gif with mouse hover on top -- circles on navbar -- font sizes -- better centering--  scrlling down logo shows on bar -- background image with opac text last colors --  */
 /*-webkit-min-device-pixel-ratio: 1.5  min-device-pixel-ratio: 1.5*/
-@@font-face {
+/*@font-face {
     font-family: "heiti";
     src: url("./HeitiStdR.ttf");
-}
+}*/
 
 body {
     height: 100%;
-    font-family: "heiti", sans-serif;
+    font-family: helvetica, arial, sans-serif;
     margin: 0;
 }
 
@@ -17,7 +17,7 @@ h1{
 
 h2 {
     margin:0px;
-    padding: 3%;
+    padding-top: 3%;
     font-size: 2.8em;
     text-align: center;
 }
@@ -75,7 +75,7 @@ p {
         padding: 8%;
     }
     p {
-        font-size: 1.4em;
+        font-size: 1.2em;
         padding-left: 8%;
         padding-right: 8%;
     }
@@ -135,7 +135,7 @@ p {
         padding: 8%;
     }
     p {
-        font-size: 1.4em;
+        font-size: 1em;
         padding-left: 8%;
         padding-right: 8%;
     }

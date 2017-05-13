@@ -1,6 +1,26 @@
 .problem {
     background-color: #a0c99f;
+    background-image: url('./blue.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    -webkit-transition: opacity 0.5s ease-out;
+    -moz-transition: opacity 0.5s ease-out;
+    -o-transition: opacity 0.5s ease-out;
+    transition: opacity 0.5s ease-out;
+}
+
+.probText {
+    background-color: #fff;
     color: #000;
-    margin: 0px;
-    padding: 0px;
+    opacity: 0;
+    transition-duration: 800ms;
+}
+
+.problem:hover .probText, .probText.hovered{
+    background:
+    rgba(0, 0, 0, 0.3),
+    url("./blue.jpg");
+    opacity: 0.7;
+    transition-duration: 800ms;
 }
