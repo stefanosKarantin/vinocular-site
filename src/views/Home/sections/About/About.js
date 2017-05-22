@@ -4,7 +4,7 @@ import Section from '../../../../components/Section/Section';
 
 const About = () => (
     <Section sectionCLass="about" id="about1" myClass="myText">
-        <h2>WINE</h2>
+        <h2>Vinocular</h2>
         <p>
             Ο τομέας της αγροκαλλιέργειας αναμένεται να γίνεται όλο και πιο σημαντικός στα χρόνια που έρχονται.
             Μέχρι το 2050,  ο πληθυσμός της Γης εκτιμάται να αυξηθεί από τα 7.3 στα  9.7 δισεκατομμύρια.

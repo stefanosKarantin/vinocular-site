@@ -5,7 +5,7 @@ import Section from '../../../../components/Section/Section';
 const Solution = () => (
     <Section sectionCLass="solution" id="solution" myClass="solText" >
         <div  className="textLeft">
-            <h2>SOLUTION</h2>
+            <h2>Gain</h2>
             <ul>
                 <li>
                     Proactive Πρόβλεψη ασθενειών (αρκετά έγκαιρα ώστε να έχει ο

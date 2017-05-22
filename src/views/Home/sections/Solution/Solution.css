@@ -1,5 +1,5 @@
 .solution {
-    background-color: #d9ffb3;
+    background-color: #a0c99f;
     padding: 0;
     display: flex;
     padding-top: 1%;
@@ -9,6 +9,7 @@
 .textLeft {
     width:50%;
     float: left;
+    text-align: left;
 }
 
 .textLeft ul{
@@ -28,14 +29,26 @@
 }
 
 @media screen and (max-width: 768px){
+    .textLeft {
+        width: 100%;
+    }
     .textLeft ul{
         font-size:1.2em;
+    }
+    .solImg {
+        display: none;
     }
 }
 
 @media screen and (max-width: 420px){
+    .textLeft {
+        width: 100%;
+    }
     .textLeft ul{
         font-size:1em;
+    }
+    .solImg {
+        display: none;
     }
 
 }

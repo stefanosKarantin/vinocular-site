@@ -1,8 +1,8 @@
 .contact {
-    background-color: #edeeef;
-    color: #000;
+    background-color: #DAE5FF;
+    color: #0C2C74;
     margin: 0px;
-    padding-bottom: 400px;
+    padding-bottom: 200px;
 }
 
 .contact ul {
@@ -11,11 +11,20 @@
     font-size: 2em;
     text-align: center;
 }
-
-.constact li {
-
+.mailForm {
+    padding: 3%;
+    margin: auto;
 }
 
+.submit {
+    color: #DAE5FF;
+    background-color: #0C2C74;
+}
+
+.info {
+    padding-bottom: 3%;
+    margin: auto;
+}
 .acein {
     width: 300px;
     height: 150px;
@@ -24,6 +33,7 @@
     background-size: 100%;
     margin: auto;
     bottom: 10px;
+    clear:both;
 }
 
 @media screen and (max-width: 768px){

@@ -49,7 +49,7 @@ class Navbar extends React.Component {
                     <ScrollLink activeClass="active" to="problem" spy={true} smooth={true} duration={500} >
                         <div className="link">
                             <div className="circle"></div>
-                            <div className="text">Problem</div>
+                            <div className="text">Pain</div>
                         </div>
                     </ScrollLink>
                 </li>
@@ -59,14 +59,14 @@ class Navbar extends React.Component {
                     <ScrollLink activeClass="active" to="solution" spy={true} smooth={true} duration={500} >
                         <div className="link">
                             <div className="circle"></div>
-                            <div className="text">Solution</div>
+                            <div className="text">Gain</div>
                         </div>
                     </ScrollLink>
                 </li>
                 <div className="line">
                 </div>
                 <li>
-                    <ScrollLink activeClass="active" to="contact" spy={true} offset={-7} smooth={true} duration={500} >
+                    <ScrollLink activeClass="active" to="contact" spy={true} smooth={true} duration={500} >
                         <div className="link">
                             <div className="circle"></div>
                             <div className="text">Contact</div>

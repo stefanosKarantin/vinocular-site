@@ -5,14 +5,10 @@
 .navbar {
     margin: auto;
     padding: 0;
-    width: 13%;
+    width: 11%;
     height: 100%;
     position: fixed;
-    background: black; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(left, #2b362a , #000); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(right, #2b362a, #000); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(right, #2b362a, #000); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to right, #2b362a , #000); /* Standard syntax */
+    background: #006f59;
     text-align: center;
 }
 
@@ -35,7 +31,7 @@
     padding: 120px 0;
     display: block;
     cursor: pointer;
-    color: #fff;
+    color: #0F2B26;
     text-decoration: none;
 }
 #about {
@@ -47,7 +43,7 @@
     left: 25.8%;
     width: 1px;
    height: 100px;
-   background-color: #ccc;
+   background-color: #0F2B26;
    position: relative;
    overflow: inherit;
    z-index: -1;
@@ -61,7 +57,7 @@
     -moz-border-radius: 50%;
     border-radius: 50%;
     line-height: 50%;
-    background-color: #fff;
+    background-color: #0F2B26;
     padding-bottom: 15.84%;
     margin-left: 8%;
     -webkit-transition: background-color 800ms;
@@ -72,21 +68,21 @@
 }
 
 .link:hover {
-    color: #006f59;
+    color: #89FFE8;
 }
 
 .link:hover .circle {
     transition-duration: 800ms;
-    background-color: #006f59;
+    background-color: #89FFE8;
 }
 .active {
 
-    color: #006f59;
+    color: #89FFE8;
 }
 
 .active .circle{
     transition-duration: 800ms;
-    background-color: #006f59;
+    background-color: #89FFE8;
 }
 
 @media screen and (max-width: 768px){
@@ -111,6 +107,12 @@
     .line {
         left: 47%;
     }
+
+    .navbar li {
+        margin: -30px auto;
+        padding: 20px 0;
+    }
+
 }
 
 @media screen and (max-height: 420px){

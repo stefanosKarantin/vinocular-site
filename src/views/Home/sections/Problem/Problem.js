@@ -4,7 +4,7 @@ import Section from '../../../../components/Section/Section';
 
 const Problem = () => (
     <Section sectionCLass="problem" id="problem" myClass="probText" >
-        <h2>PROBLEM</h2>
+        <h2>Pain</h2>
         <p>
             Η συνέργεια μεταξύ τεχνολογίας και αγροτικού τομέα δεν είναι κάτι καινούργιο.
             Από την βιομηχανική επανάσταση,  τα χημικά φυτοφάρμακα και τα βενζινοκίνητα τρακτέρ του

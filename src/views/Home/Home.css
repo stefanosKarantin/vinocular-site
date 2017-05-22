@@ -34,16 +34,16 @@ p {
 }
 
 .content {
-    width: 87%;
+    width: 89%;
     float: right;
     text-align: center;
 }
 
 .header {
     background-attachment: fixed;
-    background-image: url("./logo.png");
+    background-image: url("./vingifonce.gif");
     background-position: 58% 50%;
-    background-size: 30%;
+    background-size: 70%;
     background-repeat: no-repeat;
     margin: 0 auto;
     padding-top: 0;
@@ -51,25 +51,25 @@ p {
 
 }
 
-.header:hover {
+/*.header:hover {
     background-image: url("./vinocular.gif");
     background-position: 60% 50%;
     background-size: 60%;
-}
+}*/
 
 @media screen and (max-width: 768px){
     .header {
-        background-image: url("./vinocular.gif");
+        background-image: url("./vingifonce.gif");
         background-size: 100%;
         background-position: 70% 30%;
         padding-bottom: 140%;
     }
 
-    .header:hover {
+    /*.header:hover {
         background-size: 100%;
         background-position: 70% 30%;
         padding-bottom: 140%;
-    }
+    }*/
 
     h2 {
         padding: 8%;
@@ -83,17 +83,17 @@ p {
 
 @media screen and (max-width: 952px){
     .header {
-        background-image: url("./vinocular.gif");
+        background-image: url("./vingifonce.gif");
         background-size: 100%;
         background-position: 70% 30%;
         padding-bottom: 100%;
     }
 
-    .header:hover {
+    /*.header:hover {
         background-size: 100%;
         background-position: 70% 30%;
         padding-bottom: 100%;
-    }
+    }*/
 
 }
 
@@ -105,21 +105,21 @@ p {
     }
 
     .header {
-        background-image: url("./vinocular.gif");
+        background-image: url("./vingifonce.gif");
         background-position: 60% 20% ;
         padding-bottom: 70%;
         background-size: 50%;
     }
-    .header:hover {
+    /*.header:hover {
         background-position: 60% 20% ;
         padding-bottom: 70%;
         background-size: 50%;
-    }
+    }*/
 }
 
 @media screen and (max-width: 420px){
     .header {
-        background-image: url("./vinocular.gif");
+        background-image: url("./vingifonce.gif");
         background-size: 120%;
         background-position: 50% 20%;
         padding-bottom: 200%;

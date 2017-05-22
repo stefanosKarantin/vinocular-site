@@ -1,16 +1,16 @@
 .about{
-    background-color: #006f59;
-    background: url("./wine.jpg");
+    background-color: #00B390;
+    /*background: url("./sergei.jpg");
     background-repeat:   no-repeat;
-    background-position: center center;
+    background-position: center bottom;
     background-size: cover;
-    padding: 0;
-    -webkit-transition: opacity 0.5s ease-out;
+    padding: 0;*/
+    /*-webkit-transition: opacity 0.5s ease-out;
     -moz-transition: opacity 0.5s ease-out;
     -o-transition: opacity 0.5s ease-out;
-    transition: opacity 0.5s ease-out;
+    transition: opacity 0.5s ease-out;*/
 }
-
+/*
 .myText {
     background-color: #fff;
     color: #000;
@@ -21,7 +21,8 @@
 .about:hover .myText, .myText.hovered{
     background:
     rgba(0, 0, 0, 0.3),
-    url("./wine.jpg");
+    url("./sergei.jpg");
     opacity: 0.7;
     transition-duration: 800ms;
 }
+*/
